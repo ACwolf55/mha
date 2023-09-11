@@ -15,7 +15,7 @@ export default function NavBar({ session }: { session: Session | null }) {
     <>
       <SignInModal />
       <div
-        className={`fixed top-0 w-full flex justify-center ${
+        className={`fixed top-0 w-full flex justify-center border-b border-gray-200 ${
           scrolled
             ? "border-b border-gray-200 bg-white/50 backdrop-blur-xl"
             : "bg-white/0"
@@ -26,11 +26,12 @@ export default function NavBar({ session }: { session: Session | null }) {
             <Image
               src="/logo.png"
               alt="JustTellOne logo"
-              width="30"
-              height="30"
+              width="98"
+              height="54"
               className="mr-2 rounded-sm"
-            ></Image>
-            <p>Precedent</p>
+            >
+            </Image>
+            {/* <p>Precedent</p> */}
           </Link>
           <div>
           </div>
