@@ -18,16 +18,16 @@ const DemoModal = ({
   return (
     <Modal showModal={showDemoModal} setShowModal={setShowDemoModal}>
       <div className="w-full overflow-hidden md:max-w-md md:rounded-2xl md:border md:border-gray-100 md:shadow-xl">
-        <div className="flex flex-col items-center justify-center space-y-3 bg-white px-4 py-6 pt-8 text-center md:px-16">
+        <div className="flex flex-col items-center justify-center space-y-5 bg-white px-4 py-6 pt-4 text-center md:px-8">
           <a href="https://justtellone.org">
             <Image
               src="/logo.png"
               alt="JustTellOne.org"
-              width={148}
-              height={80}
+              width={110}
+              height={60}
             />
           </a>
-          <h3 className="font-display text-2xl font-bold">End-User License Agreement</h3>
+          <p className="font-display text-xl font-bold">End-User License Agreement</p>
           <p className="text-xsm text-gray-500 text-left">
           This End-User License Agreement (this “EULA”) is a legal agreement between you (“Licensee”) and
 Mental Health Advocates of WNY (“Licensor”), the author of JustTellOne, including all HTML files, XML
@@ -41,35 +41,35 @@ conditions set forth in this EULA. If Licensee does not agree to the terms and c
 EULA, then Licensee may not download, install, or use the Software.
 <br></br>
 <ol style={{ listStyle: 'decimal' }}>
-  <li><b>Grant of License.</b></li>
+  <li><b>Grant of License.</b> </li>
   <ol style={{ listStyle: 'lower-alpha' }}>
-        <li><b>Scope of License.</b></li>
-        <li><b>Installation and Use.</b></li>
+        <li><b>Scope of License.</b> </li>
+        <li><b>Installation and Use.</b> </li>
     </ol>
-  <li><b>Description of Rights and Limitations.</b></li>
+  <li><b>Description of Rights and Limitations.</b> </li>
   <ol style={{ listStyle: 'lower-alpha' }}>
-        <li><b>Limitations.</b></li>
-        <li><b>Update and Maintenance.</b></li>
-        <li><b>Separation of Components.</b></li>
+        <li><b>Limitations.</b> </li>
+        <li><b>Update and Maintenance.</b> </li>
+        <li><b>Separation of Components.</b> </li>
         </ol>
   <li><b>Title to Software.</b></li>
-  <li><b>Intellectual Property.</b></li>
-  <li><b>Support.</b></li>
-  <li><b>Duration.</b></li>
-  <li><b>Jurisdiction.</b></li>
-  <li><b>Non-Transferable.</b></li>
-  <li><b>Severability.</b></li>
-  <li><b>WARRANTY DISCLAIMER.</b></li>
-  <li><b>LIMITATION OF LIABILITY.</b></li>
-  <li><b>Entire Agreement.</b></li>
+  <li><b>Intellectual Property.</b> </li>
+  <li><b>Support.</b> </li>
+  <li><b>Duration.</b> </li>
+  <li><b>Jurisdiction.</b> This EULA shall be deemed to have been made in, and shall be construed pursuant to the laws of the State of New York, without regard to conflicts of laws provisions thereof. Any legal action or proceeding relating to this EULA shall be brought exclusively in courts located in Buffalo, NY, and each party consents to the jurisdiction thereof. The prevailing party in any action to enforce this EULA shall be entitled to recover costs and expenses including, without limitation, attorneys’ fees. This EULA is made within the exclusive jurisdiction of the United States, and its jurisdiction shall supersede any other jurisdiction of either party’s election.</li>
+  <li><b>Non-Transferable.</b> This EULA is not assignable or transferable by Licensee, and any attempt to do so would be void.</li>
+  <li><b>Severability.</b> No failure to exercise, and no delay in exercising, on the part of either party, any privilege, any power or any rights hereunder will operate as a waiver thereof, nor will any single or partial exercise of any right or power hereunder preclude further exercise of any other right hereunder. If any provision of this EULA shall be adjudged by any court of competent jurisdiction to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary so that this EULA shall otherwise remain in full force and effect and enforceable.</li>
+  <li><b>WARRANTY DISCLAIMER.</b> LICENSOR, AND AUTHOR OF THE SOFTWARE, HEREBY EXPRESSLY DISCLAIM ANY WARRANTY FOR THE SOFTWARE. THE SOFTWARE AND ANY RELATED DOCUMENTATION IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. LICENSEE ACCEPTS ANY AND ALL RISK ARISING OUT OF USE OR PERFORMANCE OF THE SOFTWARE.</li>
+  <li><b>LIMITATION OF LIABILITY.</b> LICENSOR SHALL NOT BE LIABLE TO LICENSEE, OR ANY OTHER PERSON OR ENTITY CLAIMING THROUGH LICENSEE ANY LOSS OF PROFITS, INCOME, SAVINGS, OR ANY OTHER CONSEQUENTIAL, INCIDENTAL, SPECIAL, PUNITIVE, DIRECT OR INDIRECT DAMAGE, WHETHER ARISING IN CONTRACT, TORT, WARRANTY, OR OTHERWISE. THESE LIMITATIONS SHALL APPLY REGARDLESS OF THE ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. UNDER NO CIRCUMSTANCES SHALL LICENSOR’S AGGREGATE LIABILITY TO LICENSEE, OR ANY OTHER PERSON OR ENTITY CLAIMING THROUGH LICENSEE, EXCEED THE FINANCIAL AMOUNT ACTUALLY PAID BY LICENSEE TO LICENSOR FOR THE SOFTWARE.</li>
+  <li><b>Entire Agreement.</b> This EULA constitutes the entire agreement between Licensor and Licensee and supersedes all prior understandings of Licensor and Licensee, including any prior representation, statement, condition, or warranty with respect to the subject matter of this EULA.</li>
 </ol>
 <br></br>
-For additional information regarding this EULA, please contact:
-Mental Health Advocates of WNY
-Attn: Melinda DuBois
-1021 Broadway
-Buffalo, NY 14209
-(716) 886-1242
+For additional information regarding this EULA, please contact:<br></br>
+<b>Mental Health Advocates of WNY<br></br>
+Attn: Melinda DuBois<br></br>
+1021 Broadway<br></br>
+Buffalo, NY 14209<br></br>
+(716) 886-1242</b>
           </p>
         </div>
       </div>
