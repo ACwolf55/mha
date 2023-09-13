@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Start re-enter of CSS Styling from 9/12*/
+
+
+/* create background colors red and purple*/
+.bg-red {
+    --tw-bg-opacity: 1;
+    background-color: rgb(210 34 42 / var(--tw-bg-opacity));
+  }
+  .bg-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgb(70 45 145 / var(--tw-bg-opacity));
+  }
+/*create text-red for hover*/
+.text-red {
+    --tw-text-opacity: 1;
+    color: rgb(210 34 42 / var(--tw-text-opacity));
+  }
+/* create hover red border*/
+@media (hover: hover) and (pointer: fine) {
+
+    .hover\:text-red:hover {
+        --tw-text-opacity: 1;
+        color: rgb(210 34 42 / var(--tw-text-opacity));
+        border-color: rgb(210 34 42 / var(--tw-text-opacity));
+      }
+}
+/*create extra small text xsm*/
+.text-xsm {
+    font-size: 0.6rem;
+    line-height: 1;
+  }
