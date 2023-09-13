@@ -40,9 +40,28 @@ By installing, copying, or otherwise using the Software, Licensee agrees to be b
 conditions set forth in this EULA. If Licensee does not agree to the terms and conditions set forth in this
 EULA, then Licensee may not download, install, or use the Software.
 <br></br>
-<ol type="1">
-  <li>Grant of License</li>
-  <li></li>
+<ol style={{ listStyle: 'decimal' }}>
+  <li><b>Grant of License.</b></li>
+  <ol style={{ listStyle: 'lower-alpha' }}>
+        <li><b>Scope of License.</b></li>
+        <li><b>Installation and Use.</b></li>
+    </ol>
+  <li><b>Description of Rights and Limitations.</b></li>
+  <ol style={{ listStyle: 'lower-alpha' }}>
+        <li><b>Limitations.</b></li>
+        <li><b>Update and Maintenance.</b></li>
+        <li><b>Separation of Components.</b></li>
+        </ol>
+  <li><b>Title to Software.</b></li>
+  <li><b>Intellectual Property.</b></li>
+  <li><b>Support.</b></li>
+  <li><b>Duration.</b></li>
+  <li><b>Jurisdiction.</b></li>
+  <li><b>Non-Transferable.</b></li>
+  <li><b>Severability.</b></li>
+  <li><b>WARRANTY DISCLAIMER.</b></li>
+  <li><b>LIMITATION OF LIABILITY.</b></li>
+  <li><b>Entire Agreement.</b></li>
 </ol>
 <br></br>
 For additional information regarding this EULA, please contact:
