@@ -40,7 +40,17 @@ By installing, copying, or otherwise using the Software, Licensee agrees to be b
 conditions set forth in this EULA. If Licensee does not agree to the terms and conditions set forth in this
 EULA, then Licensee may not download, install, or use the Software.
 <br></br>
-
+<ol>
+  <li>Grant of License</li>
+  <li></li>
+</ol>
+<br></br>
+For additional information regarding this EULA, please contact:
+Mental Health Advocates of WNY
+Attn: Melinda DuBois
+1021 Broadway
+Buffalo, NY 14209
+(716) 886-1242
           </p>
         </div>
       </div>
