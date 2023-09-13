@@ -40,7 +40,7 @@ By installing, copying, or otherwise using the Software, Licensee agrees to be b
 conditions set forth in this EULA. If Licensee does not agree to the terms and conditions set forth in this
 EULA, then Licensee may not download, install, or use the Software.
 <br></br>
-<ol>
+<ol type="1">
   <li>Grant of License</li>
   <li></li>
 </ol>
