@@ -8,6 +8,7 @@ import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
 import React from "react";
+/* this is the index page for the Chat Page */
 
 export default function Chat() {
   return (
