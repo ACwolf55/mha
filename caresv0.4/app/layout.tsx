@@ -1,10 +1,10 @@
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
 import cx from "classnames";
 import { sfPro, inter } from "./fonts";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
+
 
 export const metadata = {
   title: "Chat with a Youth Peer Advocate",
@@ -15,11 +15,10 @@ export const metadata = {
 };
 
 export default async function RootLayout({
-  children,
-}: {
+  children}: {
   children: React.ReactNode;
 }) {
-  return (
+    return (
     <html lang="en">
       <body className={cx(sfPro.variable, inter.variable)}>
        {/* background listed div: orig code:bg-gradient-to-br from-indigo-50 via-white to-cyan-100 */}
@@ -32,7 +31,6 @@ export default async function RootLayout({
           {children}
         </main>
         <Footer />
-        <Analytics />
       </body>
     </html>
   );
