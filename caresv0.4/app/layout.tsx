@@ -4,6 +4,7 @@ import { sfPro, inter } from "./fonts";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
+import { usePathname} from "next/navigation"
 
 
 export const metadata = {
@@ -17,8 +18,9 @@ export const metadata = {
 export default async function RootLayout({
   children}: {
   children: React.ReactNode;
-}) {
-    return (
+}) { 
+  return (
+
     <html lang="en">
       <body className={cx(sfPro.variable, inter.variable)}>
        {/* background listed div: orig code:bg-gradient-to-br from-indigo-50 via-white to-cyan-100 */}
