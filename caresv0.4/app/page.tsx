@@ -9,23 +9,6 @@ import { nFormatter } from "@/lib/utils";
 import { ProductChatIcon } from "@twilio-paste/icons/esm/ProductChatIcon";
 
 export default async function Home() {
-  /* //original construct to builder github button features:
-  const { stargazers_count: stars } = await fetch(
-    "https://api.github.com/repos/steven-tey/precedent",
-    {
-      ...(process.env.GITHUB_OAUTH_TOKEN && {
-        headers: {
-          Authorization: `Bearer ${process.env.GITHUB_OAUTH_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-      }),
-      // data will revalidate every 24 hours
-      next: { revalidate: 86400 },
-    },
-  )
-    .then((res) => res.json())
-    .catch((e) => console.log(e));
-*/
   return (
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
@@ -55,8 +38,6 @@ export default async function Home() {
             rel="noopener noreferrer"
           >
             <p>Let's Chat</p>
-
-
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               fill="none" 
