@@ -55,6 +55,7 @@ export default async function Home() {
             rel="noopener noreferrer"
           >
             <p>Let's Chat</p>
+
             {/* <svg
               className="h-4 w-4 group-hover:text-black"
               viewBox="0 0 24 24"
@@ -98,7 +99,7 @@ const features = [
   {
     title: "Beautiful, reusable components",
     description:
-      "Pre-built beautiful, a11y-first components, powered by [Tailwind CSS](https://tailwindcss.com/), [Radix UI](https://www.radix-ui.com/)",
+      "By continuing, you accept our [Terms](https://tailwindcss.com/)",
     large: true,
   }
 ];
