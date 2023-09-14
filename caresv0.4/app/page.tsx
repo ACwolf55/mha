@@ -8,7 +8,6 @@ import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
 import { ProductChatIcon } from "@twilio-paste/icons/esm/ProductChatIcon";
 
-
 export default async function Home() {
   /* //original construct to builder github button features:
   const { stargazers_count: stars } = await fetch(
@@ -56,7 +55,6 @@ export default async function Home() {
             rel="noopener noreferrer"
           >
             <p>Let's Chat</p>
-            
             {/* <svg
               className="h-4 w-4 group-hover:text-black"
               viewBox="0 0 24 24"
