@@ -7,7 +7,7 @@ import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
 
-export default async function Home() {
+export default async function Chat() {
   return (
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
