@@ -48,3 +48,8 @@ ol.nested  {
   list-style-type: lower-alpha;
   margin-left: 20px;
 }
+/* change the bottom padding from py-20 in layout.tsx */
+.py-22 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
