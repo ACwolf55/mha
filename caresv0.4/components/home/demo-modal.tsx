@@ -28,7 +28,7 @@ const DemoModal = ({
             />
           </a>
           <p className="font-display text-xl font-bold">End-User License Agreement</p>
-          <p className="text-xsm text-gray-500 text-left">
+          <p className="text-xsm text-gray-500 text-left overflow-y">
           This End-User License Agreement (this “EULA”) is a legal agreement between you (“Licensee”) and
 Mental Health Advocates of WNY (“Licensor”), the author of JustTellOne, including all HTML files, XML
 files, Java files, graphics files, animation files, data files, technology, development tools, scripts and

@@ -57,3 +57,7 @@ ol.nested  {
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+.overflow-y {
+  max-height: 320px;
+  overflow-y: auto;
+}
