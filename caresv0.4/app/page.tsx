@@ -18,6 +18,7 @@ export default async function Home() {
         >
           <Balancer>You are not alone.</Balancer>
         </h3>
+        {/* second paragraph start */}
         <p
           className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
@@ -54,7 +55,43 @@ export default async function Home() {
               </svg>
           </Link>
         </div>
+        {/* navigation warning  */}
+        <p
+          className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-norm"
+          style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
+        >
+          <Balancer>
+          Please note that while you chat with us you must remain on the website. If you navigate away from the chat window your connection may be lost.
+          </Balancer>
+        </p>
       </div>
+        {/* terms  */}
+        <p
+          className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-sm"
+          style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
+        >
+        By continuing, you accept our{" "}
+        <a
+          className="font-medium text-gray-500 underline transition-colors inline-flex"
+          href="https://justtellone.org/about/"
+          target="_self"
+          rel="noopener noreferrer"
+        >
+          Terms 
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke-width="1.5" 
+            stroke="currentColor" className="w-4 h-4">
+          <path 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" 
+          />
+          </svg>
+        </a>
+      </p>
       {/* begin card component */}
       <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
         {features.map(({ title, description, demo, large }) => (

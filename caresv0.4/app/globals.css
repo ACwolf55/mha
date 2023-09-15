@@ -61,3 +61,7 @@ ol.nested  {
   max-height: 320px;
   overflow-y: auto;
 }
+.text-norm {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
