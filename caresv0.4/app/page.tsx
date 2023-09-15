@@ -118,7 +118,7 @@ const features = [
   {
     title: "Beautiful, reusable components",
     description:
-      "By continuing, you accept our [Terms](https://tailwindcss.com/)",
+      "",
     large: true,
   }
 ];
