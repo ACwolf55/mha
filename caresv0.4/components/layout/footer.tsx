@@ -9,18 +9,18 @@ export default function Footer() {
       <p className="text-white">
         More Questions?{" "}
         <a
-          className="font-medium text-white underline transition-colors"
+          className="font-medium text-white underline transition-colors inline-flex"
           href="https://justtellone.org/about/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Read more on our website
+          Read more on our website 
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
             viewBox="0 0 24 24" 
             stroke-width="1.5" 
-            stroke="currentColor" className="w-5 h-5">
+            stroke="currentColor" className="w-4 h-4">
           <path 
             stroke-linecap="round" 
             stroke-linejoin="round" 
