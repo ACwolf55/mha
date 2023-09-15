@@ -11,7 +11,7 @@ export default function Footer() {
         <a
           className="font-medium text-white underline transition-colors inline-flex"
           href="https://justtellone.org/about/"
-          target="_blank"
+          target="_self"
           rel="noopener noreferrer"
         >
           Read more on our website 
