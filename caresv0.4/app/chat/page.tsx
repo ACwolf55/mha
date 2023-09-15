@@ -10,10 +10,6 @@ import React from "react";
 export default function Chat() {
   return (
     <>
-      <div className="z-10 w-full max-w-xl px-5 xl:px-0">
-          <Balancer>
-          </Balancer>
-      </div>
       {/* begin card component */}
       <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
           <Card title={""} description={""} demo={undefined} />
