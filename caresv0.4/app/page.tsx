@@ -73,9 +73,9 @@ export default async function Home() {
         By continuing, you accept our{" "}
         <a
           className="font-medium text-gray-500 underline transition-colors inline-flex"
-          href="https://justtellone.org/about/"
-          target="_self"
-          rel="noopener noreferrer"
+          href="/components/home/demo-modal.tsx"
+          // target="_self"
+          //rel="noopener noreferrer"
         >
           Terms 
           <svg 
