@@ -5,6 +5,11 @@ import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import { nFormatter } from "@/lib/utils";
 import React from "react";
+import { Chat } from "@twilio-paste/core";
+import { ChatMessage } from "@twilio-paste/core";
+import { Conversation } from "@twilio/conversations";
+import { ChatComposer } from "@twilio-paste/core";
+
 /* this is the index page for the Chat Page */
 
 export default function Chat() {
