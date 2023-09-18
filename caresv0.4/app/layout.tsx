@@ -4,6 +4,7 @@ import { sfPro, inter } from "./fonts";
 import Nav from "@/components/layout/nav";
 import Footer from "@/components/layout/footer";
 import { Suspense } from "react";
+import {Theme} from "@twilio-paste/core/theme";
 
 export const metadata = {
   title: "Chat with a Youth Peer Advocate",
