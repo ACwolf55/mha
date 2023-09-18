@@ -3,6 +3,7 @@ import Balancer from "react-wrap-balancer";
 import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import Link from "next/link";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 
 
 export default async function Home() {
