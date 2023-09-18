@@ -4,10 +4,11 @@ import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import Link from "next/link";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
-
+import {Theme} from "@twilio-paste/core/theme";
 
 export default async function Home() {
   return (
+    <Theme.Provider theme="twilio">
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
         <h3
@@ -109,6 +110,7 @@ export default async function Home() {
         ))}
       </div>
     </>
+    </Theme.Provider>
   );
 }
 
