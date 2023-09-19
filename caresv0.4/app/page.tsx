@@ -3,12 +3,15 @@ import Balancer from "react-wrap-balancer";
 import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import Link from "next/link";
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 export default async function Home() {
   return (
 
     <>
+    {/* adding recaptcha */}
+    <ReCaptchaProvider reCaptchaKey="6Lc2qS4oAAAAACIcdUjUVeeviZGRFaLVvN_aIUL1">
+    {/* begin orig code */}
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
         <h3
           className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-3xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem]"
@@ -93,7 +96,7 @@ export default async function Home() {
       {/* begin card component */}
       <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
         {features.map(({ title, description, demo, large }) => (
-          <Card
+        <Card
             key={title}
             title={title}
             description={description}
@@ -108,6 +111,7 @@ export default async function Home() {
           />
         ))}
       </div>
+      </ReCaptchaProvider>
     </>
   );
 }
