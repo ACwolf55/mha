@@ -1,10 +1,11 @@
 import Card from "@/components/home/card";
 import Balancer from "react-wrap-balancer";
-import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import Link from "next/link";
 import { ReCaptchaProvider } from "next-recaptcha-v3";
 import EulaButton from "@/components/home/terms-button";
+import { Badge } from "@twilio-paste/badge";
+import { Box } from "@twilio-paste/box";
 
 export default async function Home() {
   return (
@@ -78,35 +79,8 @@ export default async function Home() {
           </Balancer>
         </p>
       </div>
-      {/* <ComponentGrid /> */}
-      {/* begin card component */}
-      {/* <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
-        {features.map(({ title, description, demo, large }) => (
-        <Card
-            key={title}
-            title={title}
-            description={description}
-            demo={
-              title === "Beautiful, reusable components" ? (
-                <ComponentGrid />
-              ) : (
-                demo
-              )
-            }
-            large={large}
-          />
-        ))}
-      </div> */}
       </ReCaptchaProvider>
     </>
   );
 }
 
-// const features = [
-//   {
-//     title: "Beautiful, reusable components",
-//     description:
-//       "",
-//     large: true,
-//   }
-// ];
