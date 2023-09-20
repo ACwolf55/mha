@@ -13,7 +13,7 @@ export default function EulaButton() {
     <div>
   <DemoModal />
   <p className= "text-gray-500 mb-2 ">
-    <span >By continuing, you accept our{""}</span>
+    By continuing, you accept our{""}
   <Button 
     variant="link" 
     onClick={() => setShowDemoModal(true)}
