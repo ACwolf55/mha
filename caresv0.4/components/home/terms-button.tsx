@@ -10,15 +10,21 @@ export default function EulaButton() {
   const [openPopover, setOpenPopover] = useState(false);
   
   return(
-  <div>
+  <div className= "text-center w-full max-w-xl">
     <DemoModal />
+    <p
+      className="mx-auto mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-sm inline-flex"
+      style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
+    >
+        By continuing, you accept our&nbsp;
+    </p>
     <p className= "mt-6 animate-fade-up text-gray-500 opacity-0 md:text-sm inline-flex underline"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}>
     <Button 
      variant="link" 
      onClick={() => setShowDemoModal(true)}
     >
-    Terms 
+    Terms&nbsp; 
     <p>
      <svg 
             xmlns="http://www.w3.org/2000/svg" 

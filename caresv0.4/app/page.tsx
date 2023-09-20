@@ -57,15 +57,14 @@ export default async function Home() {
           </Link>
         </div>
        
-      <div className= "text-center w-full max-w-xl inline-flex">
+      <div>
         {/* terms  */}
-        <p
+        {/* <p
           className="mx-auto mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-sm inline-flex"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
         >
         By continuing, you accept our{" "}
-
-        </p>
+        </p> */}
         <EulaButton />
       </div>
 
