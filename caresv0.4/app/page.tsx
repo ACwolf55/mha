@@ -4,10 +4,10 @@ import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import Link from "next/link";
 import { ReCaptchaProvider } from "next-recaptcha-v3";
+import EulaButton from "@/components/home/terms-button";
 
 export default async function Home() {
   return (
-
     <>
     {/* adding recaptcha */}
     <ReCaptchaProvider reCaptchaKey="6Lc2qS4oAAAAACIcdUjUVeeviZGRFaLVvN_aIUL1">
@@ -93,8 +93,10 @@ export default async function Home() {
           </svg>
         </a>
       </p>
+      <EulaButton />
+      {/* <ComponentGrid /> */}
       {/* begin card component */}
-      <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
+      {/* <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-1 xl:px-0">
         {features.map(({ title, description, demo, large }) => (
         <Card
             key={title}
@@ -110,17 +112,17 @@ export default async function Home() {
             large={large}
           />
         ))}
-      </div>
+      </div> */}
       </ReCaptchaProvider>
     </>
   );
 }
 
-const features = [
-  {
-    title: "Beautiful, reusable components",
-    description:
-      "",
-    large: true,
-  }
-];
+// const features = [
+//   {
+//     title: "Beautiful, reusable components",
+//     description:
+//       "",
+//     large: true,
+//   }
+// ];

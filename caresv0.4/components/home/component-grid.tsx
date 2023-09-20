@@ -2,11 +2,6 @@
 
 import { useState } from "react";
 import { useDemoModal } from "@/components/home/demo-modal";
-import Popover from "@/components/shared/popover";
-import Tooltip from "@/components/shared/tooltip";
-import { ChevronDown, Link } from "lucide-react";
-import { Anchor } from "lucide-react";
-
 
 export default function ComponentGrid() {
   const { DemoModal, setShowDemoModal } = useDemoModal();
@@ -21,7 +16,7 @@ export default function ComponentGrid() {
         onClick={() => setShowDemoModal(true)}
         className="underline inline flex"
       >
-        Terms 
+        {/* Terms 
         <svg 
             xmlns="http://www.w3.org/2000/svg" 
             fill="none" 
@@ -33,7 +28,7 @@ export default function ComponentGrid() {
             stroke-linejoin="round" 
             d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" 
           />
-          </svg>
+          </svg> */}
       </a>
       </p>
     </div>
