@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="absolute w-full border-t border-gray-200 bg-opacity-100 bg-purple py-5 text-center">
       <p className="text-white">
-        More Questions?{" "}
+        Need Additional Help?{" "}
         <a
           className="font-medium text-white underline transition-colors inline-flex"
           href="https://justtellone.org/about/"
@@ -20,7 +20,7 @@ export default function Footer() {
             fill="none" 
             viewBox="0 0 24 24" 
             stroke-width="1.5" 
-            stroke="currentColor" className="w-4 h-4">
+            stroke="currentColor" className="w-4 h-4 inline-flex">
           <path 
             stroke-linecap="round" 
             stroke-linejoin="round" 

@@ -10,19 +10,32 @@ export default function EulaButton() {
   const [openPopover, setOpenPopover] = useState(false);
   
   return(
-    <div>
-  <DemoModal />
-  <p className= "text-gray-500 mb-2 ">
-    By continuing, you accept our{""}
-  <Button 
-    variant="link" 
-    onClick={() => setShowDemoModal(true)}
-    // className="underline inline flex"
+  <div>
+    <DemoModal />
+    <p className= "mt-6 animate-fade-up text-gray-500 opacity-0 md:text-sm inline-flex underline"
+          style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}>
+    <Button 
+     variant="link" 
+     onClick={() => setShowDemoModal(true)}
     >
-    Terms
-    <LinkExternalIcon decorative />
-  </Button>
-  </p>
-  </div>
+    Terms 
+    <p>
+     <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke-width="1.5" 
+            stroke="currentColor" className="w-4 h-4">
+          <path 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" 
+          />
+      </svg>
+    </p>
+      {/* <LinkExternalIcon decorative={false} title="Show End-User License Agreement" size="sizeIcon10"/> */}
+    </Button>
+    </p>
+</div>
 );
 }
