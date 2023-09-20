@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Chat from "twilio/lib/rest/Chat";
 import { ChatAttachment, ChatAttachmentDescription, ChatAttachmentLink, ChatBookend, ChatBookendItem, ChatBubble, ChatEvent, ChatLogger, ChatMessage, ChatMessageMeta, ChatMessageMetaItem, useChatLogger } from "@twilio-paste/chat-log";
 import { Avatar, ChatComposer } from "@twilio-paste/core";
 import Conversations from "twilio/lib/rest/Conversations";
-import { Box, DownloadIcon } from "lucide-react";
+import { Box } from "lucide-react";
 import { render } from "react-dom";
-import { ClearEditorPlugin, SendButtonPlugin, EnterKeySubmitPlugin } from '@twilio-paste/core';
-
-
+import { ClearEditorPlugin } from '@twilio-paste/lexical-library';
+import { ElementNode, $getRoot } from 'lexical';
+import { EditorState } from 'lexical';
+import { SendButtonPlugin } from './send-button';
 
 const ChatDialog = (): JSX.Element => {
     const {chats, push} = useChatLogger(
@@ -62,7 +62,7 @@ const ChatDialog = (): JSX.Element => {
       scrollerRef.current?.scrollTo({top: loggerRef.current.scrollHeight, behavior: 'smooth'});
     }, [chats, mounted]);
   
-    const handleComposerChange = (editorState) => {
+    const handleComposerChange = (editorState: EditorState) => {
       editorState.read(() => {
         const text = $getRoot().getTextContent();
         setMessage(text);

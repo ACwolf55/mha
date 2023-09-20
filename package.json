@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@twilio-paste/chat-composer": "^5.0.0"
+    "@twilio-paste/chat-composer": "^5.0.0",
+    "@twilio-paste/lexical-library": "^4.0.0",
+    "lexical": "^0.12.0"
   }
 }
